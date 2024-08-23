@@ -34,7 +34,7 @@ return [
     | '<img src="http://logo-url" alt="Admin logo">'.
     |
     */
-    'logo-mini' => '<b>SSPC</b>',
+    'logo-mini' => '<b>ahl</b>',
 
     /*
     |--------------------------------------------------------------------------
@@ -184,6 +184,7 @@ return [
         'users_table' => 'admin_users',
         'users_model' => OpenAdmin\Admin\Auth\Database\Administrator::class,
 
+        
         // Role table and model.
         'roles_table' => 'admin_roles',
         'roles_model' => OpenAdmin\Admin\Auth\Database\Role::class,

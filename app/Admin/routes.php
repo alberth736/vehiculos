@@ -15,5 +15,10 @@ Route::group([
 
     $router->get('/', 'HomeController@index')->name('home');
     $router->resource('vehiculos', VehiculoController::class);
+    $router->resource('combustibles', CombustiblesController::class);
+    $router->resource('accesorios', AccesorioController::class);
+    $router->resource('mantenimientos', MantenimientoController::class);
+
+
 
 });
